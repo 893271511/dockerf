@@ -1,0 +1,6 @@
+centos-ssh:
+  image: centos6.7-ssh
+  volumes:
+    - /data/docker-volume:/data
+  ports:
+    - 222:22
